@@ -1,0 +1,79 @@
+/********** Base styles & when Xpx < 767px **********/
+
+* {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   box-sizing: border-box;
+}
+
+body{
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.dummy{
+  clear: right;
+  padding: 10px 20px 10px 10px
+}
+
+.row {
+  width: 100%;
+}
+
+.div1{
+  font-size: 1.25em;
+  border: 1px solid black;
+  float: right;
+  width: 120px;
+  text-align: center;
+}
+
+#title1{
+  background-color: #006457;
+}
+
+#title2{
+  background-color: #642500;
+}
+
+#title3{
+  background-color: #0d6400;
+}
+
+/********** 992px or more **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;  
+  }
+  
+}
+
+
+/********** 768px <  Xpx < 991px **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left
+  }
+  .p2{
+  width: 95%;
+  }
+
+}
